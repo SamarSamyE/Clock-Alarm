@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <link rel='stylesheet' href='Alarm.css'>
+</head>
+<body>
+<div class="items">
+  <Span><a href=Clock.html style="color:white; text-decoration: none;">Clock</a></Span>
+  <Span style="text-decoration: underline;">Alarm</Span>
+</div>
+<div class ="container">
+  <h2 style="text-align: center;font-weight: bold;font-size: 30px;">Set Alarm After</h2>
+  <div class="set" >
+    <!-- three input for hour,minutes,seconds -->
+    <div>Hours <p><input type="text" value="0" max="23" step="1" id='afterHrs'></input> </p> </div> 
+    <div>Min <p> <input type="text" value="0" max="59" step="1" id='afterMins' ></input> </p> </div> 
+    <div>Sec <p><input type="text" value="0" max="59" step="1" id='afterSecs' ></input></p> </div> 
+  </div>
+  <!-- two buttons for set & clear -->
+  <div class='buttonHolder' style="margin-left: 23%;">
+    <button  class='Btn' onClick='alarmSet()'>Set Alarm</button>
+    <button  class='Btn' onClick='alarmClear()'>Clear Alarm</button>
+   </div>
+</div>    
+<script src="Alarm.js"></script>
+</body>
+</html>

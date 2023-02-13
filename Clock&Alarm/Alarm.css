@@ -1,0 +1,53 @@
+/* clock & alarm in nav */
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* Style of clock& alarm */
+span{
+    width: 20%;
+    height:40px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+/* Style of div that the component in it */
+.container{
+    width: 40%;
+    margin: auto;
+    padding-top: 2%;
+    background-color: rgb(222, 229, 233);
+   
+}
+/* display the setting comp(hrs,mins,secs)*/
+.set{
+    display:flex; 
+    flex-direction: row; 
+    margin-left: 20%;
+    justify-content: space-evenly; 
+    font-size: 20px;
+    
+}   
+/* style of setting comp */
+input{
+    width: 28%;
+    height: 40px;
+    text-align: center; 
+    user-select: none;
+    -moz-user-select: none; 
+}
+/* Style of buttons */
+.Btn{
+   width:30%;
+   height: 40px;
+   border-radius: 15px;
+   margin: 10px;
+   border: none;
+   cursor: pointer;
+  background-color: aquamarine; 
+  font-size: 15px;
+}

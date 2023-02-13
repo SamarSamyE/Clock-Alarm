@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock&Alarm</title>
+    <link rel="stylesheet" href="Clock.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<div class="items">
+<Span style="text-decoration: underline;">Clock</Span>
+<Span><a href="Alarm.html" style="color:white; text-decoration: none;">Alarm</a></Span>
+</div>
+
+<div class="container">   
+<div class="display">
+    <div id="days">
+        <h6 id="mon">Mon</h6>
+        <h6 id="tue">Tue</h6>
+        <h6 id="wed">Wed</h6>
+        <h6 id="thu">The</h6>
+        <h6 id="fri">Fri</h6>
+        <h6 id="sat">Sat</h6>
+        <h6 id="sun">Sun</h6>
+    </div>
+    <div id="time">
+        <i class="material-icons">schedule</i>
+        <div id="clock" onload="clock()" style="display: inline;font-size: 40px;"> </div>
+   </div>
+</div>
+<p style="text-align: center; padding-bottom:20px ;font-style: italic; font-size: 25px;font-weight: bold;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Digital Clock</p>
+</div> 
+<script src="clock.js"></script>
+</body>
+</html>
