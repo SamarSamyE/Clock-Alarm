@@ -1,6 +1,6 @@
 # Clock-Alarm
 it's a digital clock & alarm 
-in the alarm, (set the time after) which you want the alarm to ring 
+<p>in the alarm, (set the time after) which you want the alarm to ring </p>
 Development: https://samarsamye.github.io/Clock-Alarm/Clock&Alarm/Clock.html
 <h1>Picture from digital Clock</h1>
 
